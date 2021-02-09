@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01873AC5BA0088864B9A871A /* Pods_Parse_InstaClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1B0FDAD4B38657161E2C11 /* Pods_Parse_InstaClone.framework */; };
+		043DDB44240DB5DB00E11E6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DDB43240DB5DB00E11E6F /* AppDelegate.swift */; };
+		043DDB46240DB5DB00E11E6F /* feedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DDB45240DB5DB00E11E6F /* feedVC.swift */; };
+		043DDB48240DB5DB00E11E6F /* uploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DDB47240DB5DB00E11E6F /* uploadVC.swift */; };
+		043DDB4B240DB5DB00E11E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043DDB49240DB5DB00E11E6F /* Main.storyboard */; };
+		043DDB4D240DB5DE00E11E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043DDB4C240DB5DE00E11E6F /* Assets.xcassets */; };
+		043DDB50240DB5DE00E11E6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043DDB4E240DB5DE00E11E6F /* LaunchScreen.storyboard */; };
+		043DDB58240DBCA700E11E6F /* signUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DDB57240DBCA700E11E6F /* signUpVC.swift */; };
+		04C537432457708E0058AB43 /* FeedCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C537422457708E0058AB43 /* FeedCellVC.swift */; };
+		04C53745245775780058AB43 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C53744245775780058AB43 /* 123.png */; };
+		04C53747245775AE0058AB43 /* 59060c8b0cbeef0acff9a65b.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C53746245775AE0058AB43 /* 59060c8b0cbeef0acff9a65b.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043DDB40240DB5DB00E11E6F /* Parse InstaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse InstaClone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043DDB43240DB5DB00E11E6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043DDB45240DB5DB00E11E6F /* feedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedVC.swift; sourceTree = "<group>"; };
+		043DDB47240DB5DB00E11E6F /* uploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadVC.swift; sourceTree = "<group>"; };
+		043DDB4A240DB5DB00E11E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043DDB4C240DB5DE00E11E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043DDB4F240DB5DE00E11E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043DDB51240DB5DE00E11E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043DDB57240DBCA700E11E6F /* signUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpVC.swift; sourceTree = "<group>"; };
+		04C537422457708E0058AB43 /* FeedCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellVC.swift; sourceTree = "<group>"; };
+		04C53744245775780058AB43 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		04C53746245775AE0058AB43 /* 59060c8b0cbeef0acff9a65b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 59060c8b0cbeef0acff9a65b.png; sourceTree = "<group>"; };
+		0676251212211411846BB652 /* Pods-Parse InstaClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse InstaClone.release.xcconfig"; path = "Target Support Files/Pods-Parse InstaClone/Pods-Parse InstaClone.release.xcconfig"; sourceTree = "<group>"; };
+		5A1B0FDAD4B38657161E2C11 /* Pods_Parse_InstaClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_InstaClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB996606EE47C864F41E598 /* Pods-Parse InstaClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse InstaClone.debug.xcconfig"; path = "Target Support Files/Pods-Parse InstaClone/Pods-Parse InstaClone.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043DDB3D240DB5DB00E11E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01873AC5BA0088864B9A871A /* Pods_Parse_InstaClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043DDB37240DB5DA00E11E6F = {
+			isa = PBXGroup;
+			children = (
+				043DDB42240DB5DB00E11E6F /* Parse InstaClone */,
+				043DDB41240DB5DB00E11E6F /* Products */,
+				6C6979E127CC95CEAC18D11D /* Pods */,
+				14719F9867C687569415CD2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		043DDB41240DB5DB00E11E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043DDB40240DB5DB00E11E6F /* Parse InstaClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043DDB42240DB5DB00E11E6F /* Parse InstaClone */ = {
+			isa = PBXGroup;
+			children = (
+				04C53746245775AE0058AB43 /* 59060c8b0cbeef0acff9a65b.png */,
+				04C53744245775780058AB43 /* 123.png */,
+				043DDB43240DB5DB00E11E6F /* AppDelegate.swift */,
+				043DDB45240DB5DB00E11E6F /* feedVC.swift */,
+				04C537422457708E0058AB43 /* FeedCellVC.swift */,
+				043DDB47240DB5DB00E11E6F /* uploadVC.swift */,
+				043DDB57240DBCA700E11E6F /* signUpVC.swift */,
+				043DDB49240DB5DB00E11E6F /* Main.storyboard */,
+				043DDB4C240DB5DE00E11E6F /* Assets.xcassets */,
+				043DDB4E240DB5DE00E11E6F /* LaunchScreen.storyboard */,
+				043DDB51240DB5DE00E11E6F /* Info.plist */,
+			);
+			path = "Parse InstaClone";
+			sourceTree = "<group>";
+		};
+		14719F9867C687569415CD2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A1B0FDAD4B38657161E2C11 /* Pods_Parse_InstaClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C6979E127CC95CEAC18D11D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EB996606EE47C864F41E598 /* Pods-Parse InstaClone.debug.xcconfig */,
+				0676251212211411846BB652 /* Pods-Parse InstaClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043DDB3F240DB5DB00E11E6F /* Parse InstaClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043DDB54240DB5DE00E11E6F /* Build configuration list for PBXNativeTarget "Parse InstaClone" */;
+			buildPhases = (
+				E333581C540FD46924B8AF23 /* [CP] Check Pods Manifest.lock */,
+				043DDB3C240DB5DB00E11E6F /* Sources */,
+				043DDB3D240DB5DB00E11E6F /* Frameworks */,
+				043DDB3E240DB5DB00E11E6F /* Resources */,
+				FA531EC36F60C33830965CB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parse InstaClone";
+			productName = "Parse InstaClone";
+			productReference = 043DDB40240DB5DB00E11E6F /* Parse InstaClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043DDB38240DB5DA00E11E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Maverick;
+				TargetAttributes = {
+					043DDB3F240DB5DB00E11E6F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 043DDB3B240DB5DA00E11E6F /* Build configuration list for PBXProject "Parse InstaClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043DDB37240DB5DA00E11E6F;
+			productRefGroup = 043DDB41240DB5DB00E11E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043DDB3F240DB5DB00E11E6F /* Parse InstaClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043DDB3E240DB5DB00E11E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C53745245775780058AB43 /* 123.png in Resources */,
+				043DDB50240DB5DE00E11E6F /* LaunchScreen.storyboard in Resources */,
+				04C53747245775AE0058AB43 /* 59060c8b0cbeef0acff9a65b.png in Resources */,
+				043DDB4D240DB5DE00E11E6F /* Assets.xcassets in Resources */,
+				043DDB4B240DB5DB00E11E6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E333581C540FD46924B8AF23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parse InstaClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA531EC36F60C33830965CB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parse InstaClone/Pods-Parse InstaClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parse InstaClone/Pods-Parse InstaClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Parse InstaClone/Pods-Parse InstaClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043DDB3C240DB5DB00E11E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043DDB58240DBCA700E11E6F /* signUpVC.swift in Sources */,
+				043DDB48240DB5DB00E11E6F /* uploadVC.swift in Sources */,
+				043DDB44240DB5DB00E11E6F /* AppDelegate.swift in Sources */,
+				04C537432457708E0058AB43 /* FeedCellVC.swift in Sources */,
+				043DDB46240DB5DB00E11E6F /* feedVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043DDB49240DB5DB00E11E6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043DDB4A240DB5DB00E11E6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043DDB4E240DB5DE00E11E6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043DDB4F240DB5DE00E11E6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043DDB52240DB5DE00E11E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043DDB53240DB5DE00E11E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043DDB55240DB5DE00E11E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB996606EE47C864F41E598 /* Pods-Parse InstaClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXRJR3ZTQT;
+				INFOPLIST_FILE = "Parse InstaClone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Maverick.Parse-InstaClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043DDB56240DB5DE00E11E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0676251212211411846BB652 /* Pods-Parse InstaClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXRJR3ZTQT;
+				INFOPLIST_FILE = "Parse InstaClone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Maverick.Parse-InstaClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043DDB3B240DB5DA00E11E6F /* Build configuration list for PBXProject "Parse InstaClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043DDB52240DB5DE00E11E6F /* Debug */,
+				043DDB53240DB5DE00E11E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043DDB54240DB5DE00E11E6F /* Build configuration list for PBXNativeTarget "Parse InstaClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043DDB55240DB5DE00E11E6F /* Debug */,
+				043DDB56240DB5DE00E11E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043DDB38240DB5DA00E11E6F /* Project object */;
+}
